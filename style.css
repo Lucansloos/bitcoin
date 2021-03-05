@@ -1,12 +1,33 @@
 body {
-  background-color: white;
+  background-color: rgb(152, 179, 209);
 }
 
 h1 {
   color:black;
-  font-family: verdana;
+  font-family: cooper;
+  font-size: 250%;
+}
+
+h2 {
+  color:black;
+  font-family: Arial;
+  font-size: 150%;
+  border: 3px solid rgb(4, 57, 107);
+  padding: 5px;
+  margin: 30px;
 }
 
 p {
   color: black;
+  font-family: helvetica;
+  font-size: 100%;
+  border: 3px solid black;
+  padding: 20px;
+  margin: 30px;
 }
+
+
+
+
+
+
