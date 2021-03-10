@@ -56,13 +56,12 @@ a{
 }
 
 h1 {
-  margin-bottom: 70px;
   margin-right: 15%;
   margin-left: 15%;
-  padding: 10px 20px;
-  color:lightgrey;
+  padding: 0% 0%;
+  color:black;
   font-family: monospace;
-  font-size: 1050%;
+  font-size: 750%;
 }
 
 h2 {
@@ -87,7 +86,6 @@ p {
   margin-bottom: 100px;
   margin-right: 50px;
   margin-left: 50px;
-  font-size: 150%;
   border: 5px solid darkgrey;
 }
 
