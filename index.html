@@ -6,29 +6,52 @@
 <link rel="icon" href="images/favicon.foto.png" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-img {
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
   width: 100%;
-  height: auto;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 30px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #32a895;
 }
 </style>
 </head>
-
-
 <body>
- 
-  <div class="page">
-		<nav class="main-nav">
-  <a href="./index.html">bitcoin</a>
-  <a href="./over ons.html">over ons</a>
-  <a href="./contact pagina.html">contact pagina</a>
- 
- 
- 
- <div
-  <br />
- 
- <br />
- <br />
+
+<ul>
+  <li><a class="active" href="./index.html">bitcoin</a></li>
+  <li><a href="./over ons.html">about us</a></li>
+  <li><a href="./contact pagina.html">contact pagina</a></li>
+</ul>
+
+ <div class="page">
+ <nav class="main-nav">
+<div
+<br />
 
 
 <h2>Wat is bitcoin?</h2>
@@ -60,7 +83,5 @@ PlanB: een kwantitatief analist. Hij ziet een verband tussen het terugnemend aan
 </p>
 
 </div
-
-
 </body>
 </html>
