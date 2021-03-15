@@ -62,9 +62,12 @@ p {
   border: 5px solid white;
 }
 
-.alpha{
-  width: 200px;
-  margin: 50px 170px;
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 2%;
+  margin-left: 0%;
+  margin-right: 5%;
 }
 
 
