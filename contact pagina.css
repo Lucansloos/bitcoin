@@ -54,9 +54,9 @@ input[type=submit]:hover {
 
     <label for="country">Country</label>
     <select id="country" name="country">
-      <option value="australia">Australia</option>
-      <option value="canada">Canada</option>
-      <option value="usa">USA</option>
+      <option value="the netherlands">The Netherlands</option>
+      <option value="united kingdom">United Kingdom</option>
+      <option value="belgium">Belgium</option>
     </select>
 
     <label for="subject">Subject</label>
