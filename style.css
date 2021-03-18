@@ -6,6 +6,8 @@ margin-top: 0%;
   margin-left: 15%;
   background-color: white;
   border-radius: 50px;
+  
+	overflow: hidden;
 }
 
 body {
@@ -14,13 +16,7 @@ body {
   margin: 0;
   }
 
-  .page {
-	margin: 40px auto;
-	border: 2px solid black;
-	border-radius: 15px;
-  background-color: rgb(26, 35, 59);
-	overflow: hidden;
-  }
+  
 
   .main-nav
 {
